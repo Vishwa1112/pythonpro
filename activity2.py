@@ -1,25 +1,6 @@
-class India():
-    def capital(self):
-        print("New Delhi is the capital of India.")
-    def language(self):
-        print("Hindi is the most widely spoen language in India.")
-    def type(self):
-        print("India is a developing country.")
+s1=[2,3,1]
+s2=['b','a','c']
 
-class USA():
-    def capital(self):
-        print("Washington, D.C. is the capital of USA.")
-    
-    def language(self):
-        print("English is the primary language of USA.")
-
-    def type(self):
-        print("USA is a developed country.")
-
-obj_ind = India()
-obj_usa = USA()
-
-for country in (obj_ind, obj_usa):
-    country.capital()
-    country.language()
-    country.type()
+s3=list(zip(s1,s2))
+print("Zipped list of s1 and s2")
+print(s3, "\n")
